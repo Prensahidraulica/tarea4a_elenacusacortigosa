@@ -89,6 +89,30 @@ public class Juegos {
                                 """;
     
                         System.out.println(enunciadoSalon);
+
+                        if (numAleatorio1 == 1) {
+                            String enunciadoSalorSalir = """
+                        
+                                    ---------------------------------------------------------------------------------------------------
+                                    Por suerte para ti, has encontrado un agujero debajo de uno de los sofás roidos, aunque es un tanto
+                                    estrecho. Aun así, cualquier cosa es útil mientras ayude a salir de esta casa.
+
+                                    Cuidado con hacer ruido moviendo el sofá que hay tapando el agujero, dentro de la chimenea hay un
+                                    ser que emite muy recurrentemente los sonidos de un elefante para identificar seres vivos u objetos 
+                                    a su alrededor, por lo que no sabemos qué pasará si ese ser se diera cuenta de tu presencia
+                                    ---------------------------------------------------------------------------------------------------
+                                    """;
+
+                            System.out.println(enunciadoSalorSalir);
+
+                            break;
+                        } else if (numAleatorio1 == 2) {
+                            String enunciadoSalorJuego = """
+
+                                    --------------------------------------------------------------------------------------------------- 
+                                    De repente                                   
+                                    """;
+                        }
     
                     } else if (respuesta2.equalsIgnoreCase("biblioteca")) {
                         String enunciadoBiblioteca = """
