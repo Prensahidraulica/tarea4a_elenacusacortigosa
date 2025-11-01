@@ -447,25 +447,27 @@ public class Juegos {
                         System.out.println(enunciadoPasillo);
 
                         if (numAleatorio1 == 1) {
-                            System.out.println(
-                                    """
+                            String enunciadoSalirPasillo = """
                                             --------------------------------------------------------------------------------------------------------
                                             Te acercas lentamente hacia la luz blanca. Al final, descubres una puerta abierta: es una salida hacia el exterior.
                                             Respiras aire fresco por primera vez en mucho tiempo... ¡Has escapado!
                                             --------------------------------------------------------------------------------------------------------
-                                            """);
+                                    
+                                    """;
+                            System.out.println(enunciadoSalirPasillo);
                             return "salvado";
-                        } else {
-                            System.out.println(
-                                    """
-                                            -----------------------------------------------------------------------------------------------------------------------------
+                        } else if (numAleatorio1 == 2) {
+                            String enunciadoSalirPasillo = """
+                                             -----------------------------------------------------------------------------------------------------------------------------
                                             Te acercas a la luz, pero esta empieza a parpadear. Las paredes se contraen, y escuchas pasos detrás de ti.
                                             Cuando giras la cabeza, ves una figura al final del pasillo, pálida, sin ojos, sosteniendo un candil encendido.
                                             Su voz resuena sin boca:
                                             —¿Quieres ver la verdadera luz?
                                             De pronto todo se apaga, y la oscuridad te susurra que solo puedes salir si aciertas su número.
                                             -----------------------------------------------------------------------------------------------------------------------------
-                                            """);
+                                    
+                                    """;
+                            System.out.println(enunciadoSalirPasillo);
 
                             System.out.println(
                                     "El espíritu del pasillo te reta a un juego. Adivina un número entre 1 y 20. Tienes 3 intentos.");
